@@ -9,7 +9,7 @@ motus/
 ├── score.php # Tableau des scores
 ├── mots.json # Liste des mots disponibles
 ├── db.php # Connexion à la base de données
-├── style.css # Feuille de style commune
+├── main.css # Feuille de style commune
 └── script.js # Scripts JavaScript
 ```
 
