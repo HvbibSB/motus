@@ -1,0 +1,185 @@
+/* Style Globale du jeu */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #090979, #00D4FF);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Élements du jeu */
+.game-info {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.guess-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.guess-form input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #3498db;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.guess-form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.guess-form button:hover {
+    background-color: #2980b9;
+}
+
+.guesses-container {
+    margin-bottom: 30px;
+}
+
+.guess-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.letter.correct {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.letter.present {
+    background-color: #f39c12;
+    color: white;
+}
+
+.letter.empty {
+    background-color: #bdc3c7;
+    color: transparent;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Résultats */
+.result {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.result.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.result.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.save-score {
+    margin: 20px 0;
+}
+
+.save-score input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Tableau des scores */
+.scores-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.scores-table th, .scores-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.scores-table th {
+    background-color: #3498db;
+    color: white;
+}
+
+.scores-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.scores-table tr:hover {
+    background-color: #e6f7ff;
+}
+
+/* Messages d'erreurs */
+.error {
+    color: #e74c3c;
+    background-color: #fadbd8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
