@@ -5,7 +5,7 @@
 ```
 motus/
 ├── motus.php # Page principale du jeu
-├── regles.php # Page des règles du jeu
+├── index.php # Page des règles du jeu
 ├── regles.css # Feuille de style des règles du jeu
 ├── score.php # Tableau des scores
 ├── mots.json # Liste des mots disponibles
