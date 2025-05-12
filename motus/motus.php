@@ -148,7 +148,7 @@ if (isset($_GET['reset'])) {
         </div>
         
         <a href="score.php" class="btn">Voir les scores</a>
-        <a href="regles.php" class="btn">Voir les règles</a>
+        <a href="index.php" class="btn">Voir les règles</a>
     </div>
     
     <script src="script.js"></script>
