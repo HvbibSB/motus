@@ -20,7 +20,7 @@ $scores = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
         <a href="motus.php" class="btn">Retour au jeu</a>
         
-        <a href="regles.php" class="btn">Voir les règles</a>
+        <a href="index.php" class="btn">Voir les règles</a>
 
         <?php if (empty($scores)): ?>
             <p>Aucun score enregistré pour le moment.</p>
