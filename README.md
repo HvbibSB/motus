@@ -51,7 +51,7 @@ Trouver le mot secret en un maximum de 6 tentatives.
   - Nombre de tentatives
   - Date
 
-### 📖 Règles du jeu (`regles.php`)
+### 📖 Règles du jeu (`index.php`)
 - Explications détaillées
 - Exemples visuels
 - Liens vers:
